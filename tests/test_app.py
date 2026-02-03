@@ -12,3 +12,6 @@ def test_create_task():
         }
     )
     assert response.status_code in [200, 201, 202]
+
+def test_ci_is_working():
+    assert True
