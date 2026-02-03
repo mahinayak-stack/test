@@ -1,5 +1,5 @@
 from fastapi.testclient import TestClient
-from main import app
+from app.main import app  
 
 client = TestClient(app)
 
@@ -14,4 +14,5 @@ def test_create_task():
     assert response.status_code in [200, 201, 202]
 
 def test_ci_is_working():
+    # CI trigger check
     assert True
