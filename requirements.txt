@@ -31,3 +31,8 @@ packaging==26.0
 certifi==2026.1.4
 idna==3.11
 Pygments==2.19.2
+# Linting
+ruff==0.3.5
+
+# Security
+bandit==1.7.8
